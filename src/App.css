@@ -1,0 +1,31 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* White text color */
+}
+
+.App {
+  text-align: center;
+  position: relative; /* Add relative positioning for absolute positioning of logo */
+  padding-top: 80px; /* Adjust top padding to make space for the logo */
+}
+
+.logo {
+  width: 150px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Position the logo */
+  top: 20px; /* Distance from the top */
+  left: 20px; /* Distance from the left */
+}
+
+.App-header {
+  background-color: #282c34; /* Dark background color for header */
+  padding: 20px; /* Add padding to header */
+}
+
+/* Add any additional styles for the header content here */
+
+/* Add styles for other sections of the app as needed */
